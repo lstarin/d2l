@@ -3,16 +3,12 @@
 
 (define (domain logistics)
   (:requirements :strips :typing) 
-  (:types truck - vehicle
-          package - physobj
-          location - place
-          place 
-          physobj - object)
+  (:types package - object
+          place - object)
   
   (:predicates  (at ?obj - package ?loc - place)
 		(in ?pkg - package)
-		(att ?loc - place)
-		(nfull) (full) (load))
+		(att ?loc - place))
   
 
 (:action LOAD-TRUCK
