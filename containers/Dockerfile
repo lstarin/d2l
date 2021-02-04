@@ -44,7 +44,7 @@ RUN git clone --depth 1 -b sltp-lite --single-branch https://github.com/aig-upf/
 #################################
 # We install Python dependencies in user space so that we can move them to the "runner" image more easily
 # (see https://pythonspeed.com/articles/multi-stage-docker-python/)
-RUN git clone --depth 1 -b main --single-branch https://github.com/rleap-project/d2l \
+RUN git clone --depth 1 -b main --single-branch https://github.com/lstarin/d2l \
     && cd d2l \
     && pip3 install --user -e .
 
