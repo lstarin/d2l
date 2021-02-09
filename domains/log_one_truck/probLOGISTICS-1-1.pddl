@@ -6,4 +6,4 @@
   
 (:init  (att apt1) (at obj1 pos1) (at obj2 pos2))
 
-(:goal (and (at obj1 apt2) (at obj2 apt1)))
+(:goal (and (at obj1 apt2) (at obj2 apt1))))
