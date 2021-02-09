@@ -26,7 +26,7 @@ def experiments():
     # Goal: arbitrary logistics goal
     exps["small"] = update_dict(
         base,
-        instances=['probLOGISTICS-4-1.pddl'],
+        instances=['probLOGISTICS-1-1.pddl'],
         # test_instances=["prob{:02d}.pddl".format(i) for i in range(2, 5)],
         test_instances=[],
         test_policy_instances=['probLOGISTICS-4-2.pddl'], # all_instances(),
